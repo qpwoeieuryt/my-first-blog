@@ -70,7 +70,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'djangoProject.wsgi.application'
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'djangoProject.settings'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
