@@ -39,11 +39,9 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    padding-left: 20px;
 }
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
-}
-.post-list {
-    margin: 0 20px;
 }
