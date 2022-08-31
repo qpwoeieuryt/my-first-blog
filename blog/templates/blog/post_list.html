@@ -5,15 +5,12 @@
         <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="{% static 'blog.css' %}">
+        <link rel="stylesheet" href="{% static 'css/../../static/blog.css' %}">
     </head>
     <body>
         <div class="page-header">
             <h1><a href="/">Django Girls Blog</a></h1>
         </div>
-
-
-        {% block content %}
             {% for post in posts %}
                 <div class="post">
                     <div class="date">
@@ -23,6 +20,5 @@
                     <p>{{ post.text|linebreaksbr }}</p>
                 </div>
             {% endfor %}
-        {% endblock %}
     </body>
 </html>
